@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="https://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="beer.css"/>
+
+    <title></title>
+
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" style="opacity: 25">
+            <a class="logo" href="#"><img src="logo.png"/> </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Beers</a></li>
+                <li><a href="#">Breweries</a></li>
+                <li><a href="#">Submit a Find</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div style="background-image: url(hero.jpg);">
+<div id="top" style="width:500px; margin-left: 100px">
+    <h1 style="color:white; font-size:56px"><b>Discovering beer just got easier.</b></h1>
+    <br/>
+    <button type="button" class="btn btn-primary btn-lg" style="border-radius: 25px; ">Learn More</button>
+    <br/>
+    <br/>
+</div>
+</div>
+<div class="row">
+        <div class="col-md-1" style="margin-left:100px; width:500px">
+            <h1 style="font-family: serif">You're a couple of moments away from getting a beer.</h1>
+        <span style="font-size:20px"> Let's start with some basics. By letting us know a bit about your tastebuds, we'll be able to start
+        gathering the information we need in order to get you a beer.  We may even be able to introduce you to
+        something you've never tried before but will love.
+        </span>
+            <br/>
+        <span style="font-size:20px">We're a company that loves beer. We help beer lovers like you find their beers and explore
+        new brews, without the hassle and wait times of your local pub. And since we sell beer directly, we also save you
+        money.
+        </span></div>
+        <div class="col-md-2" style="margin-left:100px; width:500px">
+            <h3><strong>What is your favorite beer?</strong></h3>
+            <input type="text" class="form-control" placeholder="john doe" style="font-family: serif; font-size:20px; background-color: ghostwhite">
+            <h3><strong>How many times a week do you drink beer?</strong></h3>
+            <select class="form-control" style="font-family:serif; font-size:20px; background-color: ghostwhite">
+                <option>select an option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+            </select>
+            <br/>
+
+            <button type="button" class="btn btn-danger btn-lg" style="border-radius: 25px; width:175px ">get advice</button>
+            <button type="button" class="btn btn-primary btn-lg" style="border-radius: 25px; width:175px">get a beer</button>
+        </div>
+    </div>
+</div>
+<div id="bottom" style="background-color: ghostwhite">
+        <h1 style="text-align: center">What makes us different?</h1>
+        <h3 style="text-align: center">WE'RE FOCUSED ON THE NEEDS OF BEER LOVERS.</h3>
+    <div class="row">
+        <div id="bike" class="col-md-1"style="margin-left: 50px; width: 250px;">
+            <h4 style="font-size:24px; text-align: center"><b>Direct to You</b></h4>
+            <img src="icons/icon-direct-to-you.png" style="margin: 30px"/>
+            <br/>
+            <p style="font-size:20px; font-family: sans-serif;text-align: center"><i>So we can dramatically lower the cost of your
+                beer without compromising quality.</i></p>
+        </div>
+        <div id="glass" class="col-md-1" style="margin-left: 75px; width: 250px;">
+            <h4 style="font-size:24px; text-align: center"><b>Pub-less</b></h4>
+            <img src="icons/icon-pub-less.png" style="margin: 20px; margin-left: 70px"/>
+            <br/>
+            <p style="font-size:20px; font-family: sans-serif;text-align: center"><i>We're a 21st century company designed
+                to support your digital mobile lifestyle.</i></p>
+        </div>
+        <div id="thumb" class="col-md-1" style="margin-left: 75px; width: 250px;">
+            <h4 style="font-size:24px; text-align: center"><b>Peace of Mind</b></h4>
+            <img src="icons/icon-peace-of-mind.png" style="margin: 32px; margin-left: 70px"/>
+            <br/>
+            <p style="font-size:20px; font-family: sans-serif;text-align: center"><i>We've partnered with the best
+                micro-breweries with decades of experience.</i></p>
+        </div>
+        <div id="monkey" class="col-md-1" style="margin-left: 75px; width: 250px;">
+            <h4 style="font-size:24px; text-align: center"><b>Expert Advice</b></h4>
+            <img src="icons/icon-expert-advice.png" style="margin: 25px; margin-left: 70px"/>
+            <br/>
+            <p style="font-size:20px; font-family: sans-serif;text-align: center"><i>We know beer best. We know how to match
+                you with the right beer at the right price.</i></p>
+        </div>
+
+    </div>
+    <button type="button" class="btn btn-danger btn-lg" style="border-radius: 25px; width:175px; position: relative; left:50% ">Learn More</button>
+</div>
+</body>
+</html>
